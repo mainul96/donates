@@ -21,16 +21,15 @@ body{
 }
 .banner-title{
     font-size: 60px;
-    color:white;
-   align-items: center;
    text-transform: capitalize;
-   margin-bottom: 30px;
+}
+.banner-title-text{
+    color:white;
+    align-items: center;
+    margin-bottom: 30px;
 }
 .about-donate{
     font-size: 20px;
-    color:white;
-    text-align: center;
-    margin-bottom: 30px;
 }
 .btn{
     text-decoration: none;
@@ -128,9 +127,6 @@ h3{
     padding:10px 30px 30px 30px;
 }
 .doners{
-    /* display: flex;
-    gap: 30px;
-    margin-top: 100px; */
     position: relative;
     margin: 80px;
 }
