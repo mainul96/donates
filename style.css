@@ -1,0 +1,213 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family:  'Roboto', sans-serif;
+}
+.banner-section{
+    background-image: url(images/donation5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.banner-details{
+    width: 600px;
+    text-align: center;
+}
+.banner-title{
+    font-size: 60px;
+    color:white;
+   align-items: center;
+   text-transform: capitalize;
+   margin-bottom: 30px;
+}
+.about-donate{
+    font-size: 20px;
+    color:white;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.btn{
+    text-decoration: none;
+    background-color: #FF5959;
+    color: white;
+    text-transform: capitalize;
+    font-size: 25px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+.donate{
+    width:600px ;
+    margin: 0 auto;
+    color: black;
+    text-align: center;
+}
+.donate-title{
+    padding-bottom: 30px;
+    text-transform: capitalize;
+}
+.donate-details{
+    line-height: 1.3;
+    padding-bottom: 30px;
+}
+.donate-price{
+    display:flex;
+    justify-content:center;
+    gap: 20px;
+    margin-top: 40px;
+}
+.donate-money{
+    width: 60px;
+    height: 50px;
+    background-color:#FAFAFA;
+    align-items: center;
+    padding: 40px;
+   border-radius: 10px;
+}
+#donate-amount{
+background-color: rgb(245, 222, 218);
+border: 1px solid tomato;
+color: tomato;
+}
+.donate-amount-price{
+    color: grey; 
+}
+.other-amount{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+.other-amount input{
+    margin: 40px 0; 
+    text-align: center;
+    border: none;
+    outline: none;
+    padding: 10px 300px;
+    border-bottom: 1px solid gray;
+
+}
+
+.donate-plan{
+    margin-top: 100px;
+}
+.donate-card{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 30px;
+   margin-top: 20px;
+}
+.card{
+    width: 25%;
+    padding: 40px 10px;
+    border-radius: 10px;
+}
+h3{
+    margin: 20px 0px;
+}
+#card-1{
+    background-color: #e6f1f5;
+}
+#card-2{
+    background-color: #f8e6e6;
+}
+#card-3{
+    background-color: rgb(255, 243, 229);
+}
+.doner{
+    margin-top: 100px;
+    background-color: lightcyan;
+    padding:10px 30px 30px 30px;
+}
+.doners{
+    /* display: flex;
+    gap: 30px;
+    margin-top: 100px; */
+    position: relative;
+    margin: 80px;
+}
+.doner-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   margin: 0 auto;
+    width: 600px;
+}
+.doner-title h1{
+    margin-bottom: 10px;
+    font-size: 30px;
+    text-decoration: underline;
+}
+.doner-person{
+    width: 33%;
+    background-color: white;
+    padding: 80px;
+   box-shadow: 10px 10px 40px;
+   border-radius: 10px;
+   
+}
+.doner-person img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    background-color: gray;
+}
+.doner-person h2{
+    color: grey;
+    margin-bottom: 20px;
+}
+.doner-person p{
+    line-height: 1.3;
+}
+.half-width {
+    width: 40%;
+    padding: 8%;
+}
+.half-width img{
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+}
+.update-section{
+    margin-bottom: 50px;
+}
+.contact-btn{
+    border: none;
+    border-radius: 0;
+}
+.contact{
+    display: flex;
+    background-color: rgb(255, 243, 229);
+    padding:50px 200px;
+    border-radius: 10px;
+    justify-content: center;
+}
+.contact input{
+    padding: 10px 30px;
+}
+
+footer{
+    background-color: black;
+    padding: 50px;
+}
+.footer-details{
+    text-align: center;
+}
+.footer-details h2{
+    color: tomato;
+    margin-bottom: 20px;
+}
+.footer-details p{
+    color: white;
+}
